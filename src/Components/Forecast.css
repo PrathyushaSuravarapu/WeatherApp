@@ -1,0 +1,86 @@
+.title {
+    font-size: 23px;
+    font-weight: 700;
+  }
+  
+  .day-box {
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    height: 40px;
+    width: 700;
+    margin: 5px;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    padding: 5px 20px;
+  }
+  
+  .icon {
+    width: 40px;
+  }
+  .forecast{
+    /* align-content: center; */
+    margin-left: 40%;
+    padding: 40px;
+    width:100%;
+    border-radius: 30px;
+    box-shadow : 20px 20px 50px rgb(145, 226, 241); 
+    border-style: dotted ;
+    /* border-color: rgb(188, 183, 183); */
+  }
+  .shadow{
+    border-radius: 30px;
+    box-shadow : 20px 20px 50px rgb(145, 226, 241); 
+  }
+  .day-box .day {
+    cursor: inherit;
+    color: #212121;
+    flex:1 1 ;
+    font-weight: 600;
+    margin-left: 25px;
+  }
+  
+  .description {
+    cursor: inherit;
+    flex:1 1;
+    margin-right: 15px;
+    text-align: right;
+  }
+  
+  .temp {
+    cursor: inherit;
+    flex:1 1;
+    margin-right: 5px;
+    text-align: right;
+    color: #0e0808;
+  }
+  
+  .grid {
+    grid-row-gap: 1;
+    grid-column-gap: 15px;
+    -webkit-column-gap: 15px;
+    column-gap: 15px;
+    display: grid;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 5px 15px;
+    row-gap: 1;
+  }
+  
+  .grid-element {
+    align-items: center;
+    display: flex;
+    height: 30px;
+    justify-content: space-around;
+    font-size:15px;
+    font-weight:700;
+  }
+  
+  .grid-element label:first-child {
+    color: hsl(190, 27%, 96%);
+  }
+  
+  .grid-element label:last-child {
+    color: hsl(0, 14%, 4%);
+  }

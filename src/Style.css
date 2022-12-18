@@ -1,0 +1,94 @@
+
+body{
+    background : url("./Images/BgImage.jpg");
+    height: 170vh;
+    display:flex;
+    background-repeat:no-repeat;
+    background-position:center;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    
+}
+.Prathyu{
+    display:flex;
+    justify-content: flex-start;
+    width:100%;
+
+}
+.valid{
+    width:100%;
+    margin-top:40%;
+    background-color: transparent;
+    border-radius: 10px 100px /120px;
+    box-shadow : 20px 20px 50px rgb(145, 226, 241); 
+    
+}
+.Notvalid{  
+    background-color:transparent;
+    color: hsl(358, 82%, 51%);
+    padding:  0.5rem;
+    width:100%;
+    text-align: center;
+    align-content: center;
+    border-radius: 8px solid black;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow : 20px 20px 50px rgb(145, 226, 241); 
+    animation: bump 300ms ease-out;
+
+}
+.search{
+  border-radius: 30px;
+  box-shadow : 20px 20px 50px rgb(145, 226, 241); 
+  width: auto;
+  height:20%
+}
+.div{
+  position:absolute;
+  background-color: white;
+  width: 50%;
+  left:25%;
+  border-radius: 30px;
+  box-shadow : 20px 20px 50px rgb(145, 226, 241);
+  
+   
+ 
+}
+.grid-box1{
+ 
+  border-radius: 30px;
+  box-shadow : 20px 20px 50px rgb(145, 226, 241); 
+  /* border-style: dotted ; */
+ 
+}
+.grid-box2{
+  
+  border-radius: 30px;
+  box-shadow : 20px 20px 50px rgb(145, 226, 241); 
+  /* border-style: dotted ; */
+  /* border-color: rgb(138, 216, 227); */
+}
+@keyframes bump {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.9);
+    }
+    30% {
+      transform: scale(1.1);
+    }
+    40% {
+     transform: scale(2);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  
+    
