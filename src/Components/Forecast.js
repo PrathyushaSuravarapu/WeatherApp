@@ -104,7 +104,7 @@ const Forecast = ({ data }) => {
             <AccordionItemHeading>
               <AccordionItemButton>
                 <div className="day-box">
-                  <img src={`icons/${item.weather[0].icon}.png`} className="icon" alt="weather" />
+                  <img src={`icons/${item.weather[0].icon}.png`} className="icon" alt="Logo" />
                   <label className="day">{forecastDays[idx]}</label>
                   <label className="description">({item.weather[0].description})</label>
                   <label className="temp">{Math.round(item.main.temp_max)}°C - {Math.round(item.main.temp_min)}°C</label>
